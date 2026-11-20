@@ -15,7 +15,11 @@ Three distinct RSI methods demonstrating how AI systems can iteratively improve 
 ```bash
 pip install -r requirements.txt
 
-# Run each method independently
+# Web UI (all methods in one app)
+python app.py
+# Open http://localhost:9010
+
+# Or run each method independently via CLI
 cd method1_aide && python main.py
 cd method2_scientist && python main.py
 cd method3_dream_rsi && python main.py
